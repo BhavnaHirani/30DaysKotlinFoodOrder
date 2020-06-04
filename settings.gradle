@@ -1,0 +1,2 @@
+rootProject.name='30DaysKotlinFoodOrder'
+include ':app'

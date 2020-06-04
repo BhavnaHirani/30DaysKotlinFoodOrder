@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lblItemName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s12"
+                android:textColor="@color/lbl_gray"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/d8"
+                android:text="@string/ItemName"/>
+
+            <TextView
+                android:id="@+id/lblItemQTY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s12"
+                android:textColor="@color/lbl_gray"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/d8"
+                android:gravity="center"
+                android:text="@string/Qty"/>
+
+            <TextView
+                android:id="@+id/lblItemPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s12"
+                android:textColor="@color/lbl_gray"
+                android:text="@string/Price"
+                android:layout_marginEnd="@dimen/d8"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/lblItemTotal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s12"
+                android:textColor="@color/lbl_gray"
+                android:text="@string/Total"
+                android:layout_marginEnd="@dimen/d8"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/line1">
+
+            <TextView
+                android:id="@+id/txtItemName1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s16"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/d8"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/txtItemQTY1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s16"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/d8"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/txtItemPrice1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s16"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text=""
+                android:layout_marginEnd="@dimen/d8"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txtItemTotal1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s16"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text=""
+                android:layout_marginEnd="@dimen/d8"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <View
+            android:layout_below="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#efefef"/>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eb4d4a</color>
+    <color name="colorPrimaryDark">#eb4d4a</color>
+    <color name="colorAccent">#ff8076</color>
+
+    <color name="textColor">#909DB8</color>
+    <color name="light_gray">#d7d7d7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_normal">#2d2c2c</color>
+    <color name="bg_circle_default">#666666</color>
+    <color name="lbl_gray">#808080</color>
+    <color name="btn_black">#2c2c2c</color>
+
+</resources>

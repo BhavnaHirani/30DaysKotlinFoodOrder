@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/categoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/s20"
+            android:textColor="@color/colorPrimaryDark"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/d8"
+            android:textAlignment="viewStart"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/categoryName"
+            android:layout_marginTop="@dimen/d5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lblItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s12"
+                android:textColor="@color/lbl_gray"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/d8"
+                android:textAlignment="viewStart"
+                android:text="@string/ItemName"/>
+
+            <TextView
+                android:id="@+id/lblItemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s12"
+                android:textColor="@color/lbl_gray"
+                android:textStyle="bold"
+                android:text="@string/Price"
+                android:layout_marginEnd="@dimen/d8"
+                android:textAlignment="viewEnd"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/line1">
+
+            <TextView
+                android:id="@+id/txtItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s16"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/d8"
+                android:textAlignment="viewStart"
+                android:layout_weight="1"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/txtItemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/s16"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="-"
+                android:layout_marginEnd="@dimen/d8"
+                android:textAlignment="viewEnd"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d10"
+            android:layout_below="@+id/line2">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="60dp"
+                android:layout_height="@dimen/d32"
+                android:text="@string/ADD"
+                android:textSize="@dimen/s16"
+                android:textStyle="bold"
+                android:background="@drawable/gradient_btn_rounded"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/addQty"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/plus"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txtQty"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_toLeftOf="@+id/addQty"
+                android:textColor="#E36067"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginStart="@dimen/d5"
+                android:layout_marginEnd="@dimen/d5"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="1"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/removeQty"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_toLeftOf="@+id/txtQty"
+                android:background="@drawable/minus"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_below="@+id/rlButton"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#efefef"/>
+    </RelativeLayout>
+
+</layout>

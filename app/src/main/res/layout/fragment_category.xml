@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/d8"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/d8"
+            android:background="@drawable/selector_search">
+
+            <EditText
+                android:id="@+id/edtSearchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/search"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="8dp"
+                android:padding="@dimen/d8"
+                android:gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:textSize="@dimen/s14"
+                android:inputType="text"
+                android:singleLine="true"
+                android:autofillHints="@string/search" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlMainList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_common_top_corner"
+            android:layout_marginTop="@dimen/d15">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/colorPrimaryDark"
+                android:layout_centerInParent="true"
+                android:visibility="gone">
+
+            </ProgressBar>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCategoryList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/d13"
+                android:scrollbars="vertical"/>
+
+            <!--No Data-->
+            <RelativeLayout
+                android:id="@+id/rlNoData"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/d40"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvNoData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/NoData"
+                    android:layout_marginTop="@dimen/d20"
+                    android:textColor="@color/textColor"
+                    android:textSize="16sp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

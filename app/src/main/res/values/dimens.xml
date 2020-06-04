@@ -1,0 +1,112 @@
+<resources>
+
+    <dimen name="fdLightTextSize">18dp</dimen>
+    <dimen name="fdTableBorder">0.5dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nextIconSize">40dp</dimen>
+    <dimen name="languageIconSize">80dp</dimen>
+    <dimen name="languageRowWidth">100dp</dimen>
+    <dimen name="languageRowMargine">20dp</dimen>
+    <dimen name="languageMargine">20dp</dimen>
+    <dimen name="mandliTopBottomRowMargine">7dp</dimen>
+    <dimen name="dashboardSpace">5dp</dimen>
+    <dimen name="imgFateIconSize">30dp</dimen>
+    <dimen name="imgProfileIcon">80dp</dimen>
+
+    <dimen name="dbDarkTextSize">22dp</dimen>
+    <dimen name="dbLightTextSize">14dp</dimen>
+
+    <dimen name="imgDrawerIconSize">40dp</dimen>
+    <dimen name="imgDrawerRowSize">50dp</dimen>
+    <dimen name="drawerWidth">290dp</dimen>
+    <dimen name="popupRowPadding">7dp</dimen>
+    <dimen name="popupTextSize">15sp</dimen>
+
+    <dimen name="tableHeaderPaddingNoti">5dp</dimen>
+    <dimen name="tableHeaderSidePaddingNoti">5dp</dimen>
+    <dimen name="tableHeaderPadding">10dp</dimen>
+    <dimen name="tableHeaderSidePadding">5dp</dimen>
+    <dimen name="tableBorderSize">1dp</dimen>
+    <dimen name="tableHeaderTextSize">15sp</dimen>
+    <dimen name="tableDeatailTextSize">15sp</dimen>
+    <dimen name="tableCellPadding">10dp</dimen>
+    <dimen name="notificationDialogSize">310dp</dimen>
+
+    <dimen name="tableHeaderPadding2">10dp</dimen>
+    <dimen name="tableBorderSize2">1dp</dimen>
+    <dimen name="tableHeaderTextSize2">15sp</dimen>
+    <dimen name="tableDeatailTextSize2">15sp</dimen>
+    <dimen name="tableCellPadding2">10dp</dimen>
+    <dimen name="graphTextSize">20dp</dimen>
+    <dimen name="graphTextSizeSmall">15dp</dimen>
+    <dimen name="marginTopWithButton">15dp</dimen>
+    <dimen name="llTopMargin">10dp</dimen>
+    <dimen name="routeItemTopMargin">5dp</dimen>
+
+
+    <dimen name="d05">0.5dp</dimen>
+    <dimen name="d1">1dp</dimen>
+    <dimen name="d2">2dp</dimen>
+    <dimen name="d4">4dp</dimen>
+    <dimen name="d5">5dp</dimen>
+    <dimen name="d7">7dp</dimen>
+    <dimen name="d8">8dp</dimen>
+    <dimen name="d9">9dp</dimen>
+    <dimen name="d10">10dp</dimen>
+    <dimen name="d12">12dp</dimen>
+    <dimen name="d13">13dp</dimen>
+    <dimen name="d15">15dp</dimen>
+    <dimen name="d16">16dp</dimen>
+    <dimen name="d18">18dp</dimen>
+
+    <dimen name="dm15">-15dp</dimen>
+    <dimen name="d20">20dp</dimen>
+    <dimen name="d25">25dp</dimen>
+    <dimen name="d30">30dp</dimen>
+    <dimen name="d32">32dp</dimen>
+    <dimen name="d40">40dp</dimen>
+    <dimen name="d48">48dp</dimen>
+    <dimen name="d50">50dp</dimen>
+    <dimen name="d60">60dp</dimen>
+    <dimen name="d70">70dp</dimen>
+    <dimen name="d80">80dp</dimen>
+    <dimen name="d85">85dp</dimen>
+    <dimen name="d100">100dp</dimen>
+    <dimen name="d120">120dp</dimen>
+    <dimen name="d140">140dp</dimen>
+    <dimen name="d150">150dp</dimen>
+    <dimen name="d160">160dp</dimen>
+    <dimen name="d180">180dp</dimen>
+    <dimen name="d190">190dp</dimen>
+    <dimen name="d200">200dp</dimen>
+    <dimen name="d210">210dp</dimen>
+    <dimen name="d220">220dp</dimen>
+    <dimen name="d250">280dp</dimen>
+    <dimen name="d310">310dp</dimen>
+
+    <dimen name="s5">5sp</dimen>
+    <dimen name="s10">10sp</dimen>
+    <dimen name="s12">12sp</dimen>
+    <dimen name="s13">13sp</dimen>
+    <dimen name="s14">14sp</dimen>
+    <dimen name="s15">15sp</dimen>
+    <dimen name="s16">16sp</dimen>
+    <dimen name="s18">18sp</dimen>
+    <dimen name="s20">20sp</dimen>
+    <dimen name="s22">22sp</dimen>
+    <dimen name="s24">24sp</dimen>
+    <dimen name="s25">25sp</dimen>
+    <dimen name="s30">30sp</dimen>
+    <dimen name="s35">35sp</dimen>
+    <dimen name="s40">40sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="otp_customotp_view_item_size">57dp</dimen>
+    <dimen name="otp_customotp_view_item_radius">2dp</dimen>
+    <dimen name="otp_customotp_view_item_spacing">5dp</dimen>
+    <dimen name="otp_customotp_view_item_line_width">2dp</dimen>
+    <dimen name="otp_customotp_view_cursor_width">2dp</dimen>
+</resources>

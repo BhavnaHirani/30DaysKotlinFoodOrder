@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">30DaysKotlinFoodOrder</string>
+
+    <string name="menu_home">Menu</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_order">Orders</string>
+    <string name="menu_more">More</string>
+    <string name="title_Menu">Menu</string>
+    <string name="address">User details</string>
+    <string name="restaurant">About us</string>
+    <string name="aboutus">About Us</string>
+    <string name="search">Search here</string>
+    <string name="NoData">No data</string>
+    <string name="cancel">Cancel</string>
+    <string name="order">Order</string>
+    <string name="error_internet">Please Check Internet Connection</string>
+    <string name="err_internet">Internet not available.</string>
+    <string name="Continue">Continue</string>
+    <string name="Save">Save</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Price">Price :</string>
+    <string name="total_items">Total Items :</string>
+    <string name="ItemName">Item Name</string>
+    <string name="Qty">Qty</string>
+    <string name="Total">Total</string>
+    <string name="Email">Email</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="PinCode">Pin Code</string>
+    <string name="enter_pincode">Enter your pin code</string>
+    <string name="Address">Address</string>
+    <string name="enter_address">Enter your address</string>
+    <string name="MobileNumber">Mobile Number</string>
+    <string name="enter_mobile">Enter your mobile number</string>
+    <string name="Name">Name</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="City">City</string>
+    <string name="State">State</string>
+    <string name="ADD">ADD</string>
+</resources>

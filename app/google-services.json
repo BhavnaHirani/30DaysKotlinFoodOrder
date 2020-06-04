@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "471628213188",
+    "firebase_url": "https://dayskotlin-a45cd.firebaseio.com",
+    "project_id": "dayskotlin-a45cd",
+    "storage_bucket": "dayskotlin-a45cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471628213188:android:f19d270a9c8e563fa49291",
+        "android_client_info": {
+          "package_name": "com.bh.a30dayskotlinfoodorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471628213188-b5cesf7nm8v206k28akqhtf008g85jd3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0nSrvaXJjBlTClV5oN4Sz4HEWIz4FYe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471628213188-b5cesf7nm8v206k28akqhtf008g85jd3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
